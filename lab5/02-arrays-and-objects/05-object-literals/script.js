@@ -2,7 +2,7 @@ let x;
 
 // Creating an object
 const person = {
-  name: 'John Doe',
+  name: 'Doja Cat',
   age: 30,
   isAdmin: true,
   address: {
@@ -20,7 +20,7 @@ x = person.address.state;
 x = person.hobbies[0];
 
 // Updating properties
-person.name = 'Jane Doe';
+person.name = 'Doja Cat';
 person['isAdmin'] = false;
 
 // Deleting properties

@@ -18,5 +18,5 @@
         // Back button functionality
         let backButton = document.getElementById("backButton");
         backButton.addEventListener("click", function() {
-            window.location.href = "../index.html"; // กลับไปที่ index.html
+            window.location.href = "../index 2.html"; // กลับไปที่ index.html
         });

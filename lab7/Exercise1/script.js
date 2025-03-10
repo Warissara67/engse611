@@ -13,5 +13,5 @@ button.addEventListener("click", function() {
 // Back button functionality
 let backButton = document.getElementById("backButton");
 backButton.addEventListener("click", function() {
-    window.location.href = "../index.html"; // เปลี่ยนเส้นทางกลับไปที่ index.html
+    window.location.href = "../index 2.html"; // เปลี่ยนเส้นทางกลับไปที่ index.html
 });

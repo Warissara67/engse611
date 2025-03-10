@@ -36,5 +36,5 @@
 
         // Adding an event listener to the "Back to Home" button to navigate to index.html
         backButton.addEventListener("click", function() {
-            window.location.href = "../index.html"; // Redirects to index.html
+            window.location.href = "../index 2.html"; // Redirects to index.html
         });
