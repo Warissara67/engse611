@@ -1,0 +1,99 @@
+body {
+  background-color: #5564a1; /* สีพื้นหลังเบา ๆ โทนม่วงอ่อน */
+  font-family: 'Roboto', sans-serif;
+  color: #4b4b4b; /* สีข้อความเป็นเทาเข้ม */
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff; /* พื้นหลังของคอนเทนเนอร์เป็นสีขาว */
+  border-radius: 8px; /* มุมโค้ง */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* เงาเบา ๆ */
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #6c5b8b; /* สีม่วงอ่อนสำหรับข้อความหัวเรื่อง */
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  border: 1px solid #d3d3d3; /* ขอบสีเทาอ่อน */
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #8e44ad; /* สีม่วงเข้ม */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #9b59b6; /* สีม่วงอ่อนกว่าเมื่อ hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* เงาเบา ๆ */
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px;
+  color: #4b4b4b; /* สีข้อความเทาเข้ม */
+}
+
+li button {
+  background-color: #e74c3c; /* สีแดงสำหรับปุ่มลบ */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li button:hover {
+  background-color: #c0392b; /* สีแดงเข้มเมื่อ hover */
+}
+
+li.completed {
+  background-color: #f7f7f7; /* สีพื้นหลังอ่อนกว่าเมื่อทำเครื่องหมายเสร็จ */
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
