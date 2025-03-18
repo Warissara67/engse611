@@ -3,12 +3,12 @@
 
 /* Color Variables */
 :root {
-    --darkblue: #c39b2d;
+    --darkblue: #3e3c34;
     --secondarytxt-color: #E5E7EB;
     --accent-color: #3882F6;
     --quoteBG: #E5E7EB;
     --logo-hero-color: #F9FAF8;
-    --sectionheight: 500px;
+    --sectionheight: 450px;
 }
 
 * {
@@ -16,7 +16,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 body {
@@ -68,7 +68,7 @@ nav {
 /* Hero Section */
 .hero {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url('https://thonglorpet.com/_content_html_editor_upload/images/1B6E7B40-76BB-B4E5-4F33-D160CB628F3D.jpg') no-repeat center center/cover;
+                url('2927bc0139f404eca84706e22896d03e.jpg') no-repeat center center/cover;
     height: var(--sectionheight);
     color: var(--logo-hero-color);
     display: flex;
@@ -153,14 +153,29 @@ nav {
     background: var(--quoteBG);
     color: var(--darkblue);
     padding: 2rem 1rem;
-    text-align: center;
+    text-align: left;
 }
 
 .quote h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
-
+.quote h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.quote h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.quote h6 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.quote h7 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
 /* CTA Section */
 .CTA {
     background: var(--darkblue);
@@ -215,14 +230,14 @@ nav {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .navbar .container {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
     }
 
     .hero {
-        text-align: center;
+        text-align: left;
         padding: 2rem 1rem;
     }
 
@@ -231,6 +246,6 @@ nav {
     }
 
     .CTA .container-text {
-        text-align: center;
+        text-align: left;
     }
 }
